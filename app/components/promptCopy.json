@@ -1,0 +1,8 @@
+{
+  "promptBlock": {
+    "title": "Gen Recipe",
+    "description": "Do you thing an AI recipe would be fun at all ? Lets try out",
+    "label": "Prompt",
+    "defaultText": ["A recipe for a delicious cake", "Today I want the recipe for a coissant", "I'm looking for recipe for pasta carbonara"]
+  }
+}
