@@ -26,8 +26,8 @@ export default function PromptChatBox({}: PromptImputProps) {
         <div className="prompt-chat-box__message">
           <p>Hi! How can I help you today?</p>
         </div>
-        {dataUI.map((data) => {
-          return <PromptChatTextBox user={data.user} message={data.message} isBotTyping={false} />
+        {dataUI.map((data, index) => {
+          return <PromptChatTextBox user={data.user} message={data.message} isBotTyping={false} key={data.user+index}/>
         })}
       </div>
     </div>

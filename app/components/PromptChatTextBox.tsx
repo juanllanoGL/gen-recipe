@@ -14,7 +14,7 @@ export default function PromptChatTextBox({user, message}: chatLog) {
             <div className="flex items-center space-x-2 rtl:space-x-reverse">
               <span className="text-sm font-semibold text-gray-900 dark:text-white">{user}</span>
             </div>
-            <p className="text-sm font-normal py-2.5 text-gray-900 dark:text-white">That's awesome. I think our users will really appreciate the improvements.</p>
+            <p className="text-sm font-normal py-2.5 text-gray-900 dark:text-white">That&apos;s awesome. I think our users will really appreciate the improvements.</p>
         </div>
       </div>
     </div>
